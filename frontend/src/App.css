@@ -1,0 +1,56 @@
+/* frontend/src/App.css */
+
+/* Additional custom styles that complement Tailwind */
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.fade-in {
+	animation: fadeIn 0.6s ease-out;
+}
+
+/* Enhanced prose styles for blog content */
+.prose {
+	line-height: 1.75;
+}
+
+.prose p {
+	margin-bottom: 1.25em;
+}
+
+.prose h1,
+.prose h2,
+.prose h3 {
+	margin-top: 2em;
+	margin-bottom: 1em;
+	font-weight: 600;
+}
+
+.prose h1 {
+	font-size: 1.875rem;
+}
+
+.prose h2 {
+	font-size: 1.5rem;
+}
+
+.prose h3 {
+	font-size: 1.25rem;
+}
+
+
